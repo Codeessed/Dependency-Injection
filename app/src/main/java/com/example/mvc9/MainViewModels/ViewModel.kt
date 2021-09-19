@@ -23,6 +23,8 @@ class ViewModel
         getUser()
     }
 
+
+
     //makes the network call request and add the data received to the livedata and gives an error messaage in of any obstruction
     private fun getUser() = viewModelScope.launch {
         repository.getUsers().let{response ->
