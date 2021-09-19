@@ -5,7 +5,6 @@ import android.util.Log
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
-import com.example.mvc9.Api.PostApi
 import com.example.mvc9.MainViewModels.ViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
